@@ -1,0 +1,20 @@
+# --- Transcription core -----------------------------------
+torch==2.2.0            # "cpu" wheel already includes Metal/MPS backend
+openai-whisper==20231106
+
+# --- Data manipulation & progress -------------------------
+pandas==2.2.2
+tqdm==4.66.4
+
+# --- Audio utilities (optional) ---------------------------
+ffmpeg-python==0.2.0     # call FFmpeg within notebook
+pydub==0.25.1            # cuts/concat without FFmpeg cli
+soundfile==0.13.1        # read/write audio files
+libsndfile==1.2.2        # audio file format support
+
+# --- Environment and API management -----------------------
+python-dotenv==1.0.0     # load environment variables from .env files
+
+# --- Jupyter environment ---------------------------------
+jupyterlab==4.1.5
+ipykernel==6.29.0
